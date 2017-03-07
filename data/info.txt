@@ -1,1 +1,56 @@
-These are processed datasets.
+These are processed datasets. Raw data downloaded from basketball-reference.com
+
+All-stat.csv
+-- 180 x 6
+-- columns: 3 point made per game, 3 point attempt per game, 3 point shooting percentage, 2 point/ 3 point made ratio, 2/3 attempt ratio
+-- rows: team stats, 6 seasons (2011-2017), 30 teams, so 30*6 = 180 rows, sorted alphabetically with team names
+-- for example, first row is Atlanta Hawks' stat at 2011-2012 season, second row is Boston Celtics' stat at 2011-2012 season
+-- 30th row: Washington Wizard stat at 2011-2012 season, 31st row: Atlanta Hawks' stat at 2012-2013 season
+
+All-stat-opp.csv
+-- 180 x 4
+-- columns: 3 point made per game, 3 point shooting percentage, eFG%, 1- opponent's 3 point shooting percentage
+-- rows: same as All-stat.csv
+* eFG%: effective field goal percentage
+
+All-stat-noatt.csv
+-- 180 x 4 (no attempt stats)
+-- columns: 3 point made per game, 3 point shooting percentage, 2 point/ 3 point made ratio, eFG%
+-- rows: same as All-stat.csv
+
+All-stat-opp-eFG.csv
+-- 180 x 5
+-- columns: 3 point made per game, 3 point shooting percentage, eFG%, 1- opponent's 3 point shooting percentage, 1- opponent's eFG%
+-- rows: same as All-stat.csv
+
+All-win-perc.csv
+-- 180 x 1
+-- column: winning percentage
+-- row: team/ season corresponding to All-stat.csv, 6 seasons (2011-2017) first row: Atlanta Hawks' win percentage at 2011-2012 season
+-- second row is Boston Celtics' win percentage at 2011-2012 season, 30th row: Washington Wizard win percentage at 2011-2012 season
+-- 31st row: Atlanta Hawks' win percentage at 2012-2013 season
+
+All-win-perc-cut.csv
+-- 90 x 1
+-- column: winning percentage
+-- row: 3 seasons (2014-2017) first row: Atlanta Hawks' win percentage at 2014-2015 season
+-- second row is Boston Celtics' win percentage at 2014-2015 season, 30th row: Washington Wizard win percentage at 2014-2015 season
+-- 31st row: Atlanta Hawks' win percentage at 2015-2016 season
+
+All-stat-opp-cut.csv
+-- 90 x 4
+-- columns: same as All-stat-opp.csv
+-- rows: corresponding to All-win-perc-cut.csv, only contain 2014-2017, 3 seasons' stats
+
+All-stat-opp-eFG-cut.csv
+-- 90 x 5
+-- columns: same as All-stat-opp-eFG.csv
+-- rows: corresponding to All-win-perc-cut.csv, only contain 2014-2017, 3 seasons' stats
+
+2017-03-02.csv
+-- 30 x 5
+-- columns: same as All-stat-opp-eFG.csv
+-- rows: winning percentage as of March 02 2017
+-- first row: Atlanta Hawks' win percentage as of March 02 2017 at 2016-2017 season
+-- second row is Boston Celtics' win percentage as of March 02 2017 at 2016-2017 season
+
