@@ -14,7 +14,10 @@ See Jupyter Notebook for detailds: winning_analysis.ipynb
 - [scikit-learn](http://scikit-learn.org/stable/)
 
 ## Predictions
+East Conference
 ![predictions/East1.png](predictions/East1.png)
 ![predictions/East2.png](predictions/East2.png)
+
+West Conference
 ![predictions/West1.png](predictions/West1.png)
 ![predictions/West1.png](predictions/West1.png)
