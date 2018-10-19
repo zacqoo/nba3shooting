@@ -12,3 +12,5 @@ See Jupyter Notebook for detailds: winning_analysis.ipynb
 ## Requirements
 - [Anaconda / Python 3.5](https://www.continuum.io/downloads)
 - [scikit-learn](http://scikit-learn.org/stable/)
+
+## Predictions
