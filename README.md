@@ -7,5 +7,5 @@ Anyone who have been watching NBA games would have noticed that the league has s
 In this project, I: (1) explore possible correlations between 3-point shooting and the winning, and (2) predict the 2016-2017 season results of each team, based on the correlations.
 
 ## Code
-See Jupyter Notebook for details.
+See Jupyter Notebook for detailds: winning_analysis.ipynb
 
