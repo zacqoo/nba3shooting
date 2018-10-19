@@ -9,3 +9,6 @@ In this project, I: (1) explore possible correlations between 3-point shooting a
 ## Code
 See Jupyter Notebook for detailds: winning_analysis.ipynb
 
+## Requirements
+- [Anaconda / Python 3.5](https://www.continuum.io/downloads)
+- [scikit-learn](http://scikit-learn.org/stable/)
